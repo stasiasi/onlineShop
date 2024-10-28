@@ -1,0 +1,47 @@
+# Общие папки и файлы, которые нужно игнорировать
+bin/
+obj/
+*.user
+*.vspscc
+*.vssscc
+.vscode/
+.idea/
+
+# Конфигурационные файлы
+appsettings.*.json
+appsettings.json
+secrets.json
+
+# Локальная среда и файлы конфигурации
+.env
+*.log
+logs/
+*.pid
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Папки для IDE
+.vs/
+
+# Пакеты и сборки
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Файлы временного кэша и публикации
+wwwroot/lib/
+publish/
+node_modules/
+yarn.lock
+package-lock.json
+
+# Git конфигурации и сторонние конфиги
+*.orig
+.idea/
+.DS_Store
+Thumbs.db
